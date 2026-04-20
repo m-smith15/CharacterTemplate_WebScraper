@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+	background-image: url('/assets/dos_background.jpg');
+	background-repeat:repeat-x;
+	background-color: #2c2628;
+}
+
+.container{
+	border: solid black 2px;
+	width: 33%;
+}
+.wrapper{
+	display:flex;
+	flex-wrap: wrap;
+}
+.wrapper .container{
+	opacity: .55;
+	background-color:lightgrey;
+}
+.panel {
+	columns: 3;
+}
+.learableSpells{
+	columns:2;
+}
+.characterContainer{
+	height:50%;
+	background-color:cadetblue;
+	color:black;
+}
+.learnableSpellContainer{
+	width:75%;
+	background-color:lightgray;
+	opacity:.75;
+	columns: 2;
+	column-rule: 2px solid black;
+}
+.learnableSpellContainer ul li{
+	break-inside:avoid;
+}
+.learnableSpellContainer h2 {
+	color: black;
+}
+h1, h2{
+	text-align:center;
+	color:white;
+}
+.allSchoolSpells{
+	columns: 2;
+	column-rule: 2px solid black;
+}
+.allSchoolSpells ul{
+	break-inside:avoid;
+}
+.newCharBtn{
+	padding-left:5%;
+}
+.btn {
+	border: solid black 1px;
+	background-color:lightgray;
+	margin-bottom:6px;
+}
+.acknoledgements{
+	display:flex;
+	justify-content:center;
+}
+.acknoledgements p {
+	text-align:center;
+	background:black;
+	color:lightgray;
+	padding:3px;
+}
